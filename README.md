@@ -14,15 +14,15 @@ sudo apt install gettext libappstream-dev libflatpak-dev libgee-0.8-dev libgrani
 
 Run `meson build` to configure the build environment. Change to the build directory and run `ninja` to build
 
-    ``` sh
-    git clone https://github.com/hexisXz/hexcenter.git && cd hexcenter && meson build --prefix=/usr && cd build && ninja && sudo ninja install
-    ```
+``` sh
+git clone https://github.com/hexisXz/hexcenter.git && cd hexcenter && meson build --prefix=/usr && cd build && ninja && sudo ninja install
+```
 
 To run hexcenter execute `io.elementary.appcenter`
 
-    ``` sh
-    io.elementary.appcenter
-    ```
+``` sh
+io.elementary.appcenter
+```
 
 if you want to uninstall hexcenter make sure you are in the build dir and run 
 
