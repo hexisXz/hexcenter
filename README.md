@@ -1,4 +1,4 @@
-# AppCenter
+# Hexcenter
 
 a store i forked because i hate the ubuntu store.
 
