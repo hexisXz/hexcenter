@@ -1,5 +1,4 @@
 # AppCenter
-[![Translation status](https://l10n.elementary.io/widgets/appcenter/-/svg-badge.svg)](https://l10n.elementary.io/projects/appcenter/?utm_source=widget)
 
 a store i forked because i hate the ubuntu store.
 
