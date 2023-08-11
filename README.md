@@ -12,7 +12,7 @@ You'll need to run the following command to install all of the dependencies:
 
 Run `meson build` to configure the build environment. Change to the build directory and run `ninja` to build
 
-    cd hexcenter && meson build --prefix=/usr && cd build && ninja
+    git clone https://github.com/hexisXz/hexcenter.git && cd hexcenter && meson build --prefix=/usr && cd build && ninja
 
 To install, use `ninja install`, then execute with `io.elementary.appcenter`
 
