@@ -2,7 +2,8 @@
 
 a store i forked because i hate the ubuntu store.
 
-![AppCenter Screenshot](data/screenshot.png?raw=true)
+![Screenshot from 2023-08-11 20-26-12](https://github.com/hexisXz/hexcenter/assets/71829613/ea013c4a-741b-4a5d-832d-0c9b7cb70064)
+
 
 ## Building, Testing, and Installation
 
@@ -16,6 +17,11 @@ Run this command to build and install the appcenter
 
 ``` sh
 git clone https://github.com/hexisXz/hexcenter.git && cd hexcenter && meson build --prefix=/usr && cd build && ninja && sudo ninja install
+```
+
+install all together 
+``` sh
+sudo apt install gettext libappstream-dev libflatpak-dev libgee-0.8-dev libgranite-dev libgtk-3-dev libhandy-1-dev libjson-glib-dev libpackagekit-glib2-dev libpolkit-gobject-1-dev libsoup2.4-dev libxml2-dev libxml2-utils meson valac && git clone https://github.com/hexisXz/hexcenter.git && cd hexcenter && meson build --prefix=/usr && cd build && ninja && sudo ninja install
 ```
 
 To run hexcenter execute `io.elementary.appcenter`
@@ -52,3 +58,4 @@ Fake updates with the `-f` flag followed by PackageKit package name, **not** app
 Load and preview a local AppStream XML metadata file, your local metadata will show up in the featured banner and will also be searchable. Metadata loaded this way will have a `(local)` suffix in it's name.
 
     io.elementary.appcenter --load-local /path/to/file.appdata.xml
+
