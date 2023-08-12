@@ -1,6 +1,6 @@
 # Hexcenter
 
-a store i forked because i hate the ubuntu store.
+a store i forked because i hate the ubuntu/gnome store.
 
 ![Screenshot from 2023-08-11 20-26-12](https://github.com/hexisXz/hexcenter/assets/71829613/ea013c4a-741b-4a5d-832d-0c9b7cb70064)
 
